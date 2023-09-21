@@ -1,3 +1,6 @@
+body {
+  font-family: "Euclid Circular A", "Poppins";
+}
 main {
   flex: 100%;
   /* Set the width of the main content */
@@ -16,6 +19,7 @@ section {
   padding: 75px 0px;
   min-height: 80vh;
   color: white;
+  font-family: "Euclid Circular A", "Poppins";
 }
 .Hi {
   margin-top: 50vh;
@@ -60,4 +64,55 @@ section#Projects > div.projects > ul > li {
 
 i {
   margin: 6px;
+}
+
+/* .intro {
+  background-image: url(/assets/image/Wave.svg);
+} */
+
+#hero-area {
+  background-image: url(/assets/image/Wave.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 650px;
+  /* height: 860px; */
+  position: relative;
+  overflow: hidden;
+  padding: 180px 0 80px;
+}
+
+#hero-area .contents .head-title {
+  color: #222222;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 10px;
+}
+
+#hero-area .contents .header-button {
+  margin-top: 20px;
+  color: #222222;
+}
+
+#hero-area .contents .header-button .btn {
+  margin-right: 10px;
+}
+
+#hero-area .img-fluid {
+  position: relative;
+  bottom: 28px;
+  zoom: 1.5;
+}
+
+section.intro {
+  background-color: #0e2a47;
+}
+
+.cb-head {
+  font-size: 38px;
+  color: #fffbfb;
+  font-weight: 700;
+  font-family: "Euclid Circular A", "Poppins";
+  margin-bottom: 20px;
 }
