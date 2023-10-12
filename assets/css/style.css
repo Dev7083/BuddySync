@@ -130,3 +130,8 @@ div.card-body > a.btn.btn-primary {
   justify-content: center;
   margin: 2rem 2rem;
 }
+
+#nav-logo {
+  height: 70px;
+  width: 70px;
+}
