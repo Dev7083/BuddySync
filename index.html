@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CollegeBuddy</title>
+    <title>BuddySync</title>
     <link rel="shortcut icon" href="./assets/logo/graduation-cap-solid.svg" type="image/x-icon">
     <!-- main Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -43,16 +43,20 @@
   <body>
     <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="margin-left: 5vh;"><img src="assets/logo/BuddySync Redesigned.png" id="nav-logo"></a>
+          <a class="navbar-brand" href="#" style="margin-left: 5vh;"><img src="./assets/logo/BuddySync_Redesigned-removebg-preview.png" id="nav-logo"></a>
+          <li class="nav-item" id="points" style="list-style: none;justify-content: end;">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-regular fa-star" aria-hidden="true"></i></a>
+          </li>
+
+
           
-
-
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><i class="fa-solid fa-circle-user" style="margin-right: 6px;"></i><a href="./assets/pages/login/login.html" target="_blank">Sign in to Continue</a></h5>
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><i class="fa-solid fa-circle-user" style="margin-right: 6px;"></i><a href="./assets/pages/login/login.html" style="text-decoration: none;color: black;" target="_blank">Sign in to Continue</a></h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
@@ -62,8 +66,16 @@
                     Home</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="https://dev7083.github.io/BuddySync-Code/" target="_blank"><i class="fa-solid fa-code" aria-hidden="true"></i>
+                    BuddyCode</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i>
                     Resources</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://dev7083.github.io/kernelhackers_blog/" target="_blank"><i class="fa-solid fa-b" aria-hidden="true"></i>
+                    BuddyBlog</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href=""><i class="fa-solid fa-graduation-cap"></i>Career</a>
@@ -82,8 +94,7 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="" download="CollegeBuddy" target="_blank"><i class="fa-solid fa-download" style="margin: 1%;"></i>Download APK</a>
-                </li>
-                
+                </li>   
                <!-- Search -->
               <form class="d-flex mt-3" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
